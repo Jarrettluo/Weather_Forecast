@@ -12,8 +12,8 @@ from email.header import Header
 from email.utils import formataddr
 
 HOST = 'smtp.163.com'
-USER = 'luojiarui2@163.com'
-PWD = 'LJR199308'
+USER = '*************@163.com'
+PWD = '#############'
 
 def automail(title, msg, receivers):
     """

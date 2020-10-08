@@ -11,7 +11,7 @@ import json
 import csv
 import datetime
 
-# from SendEmail.sendemail import *
+from mail import automail
 
 KEY = "ac123eeb7c16456a87a5ec3d322f09ff"
 CITY = "彭山"
@@ -62,3 +62,8 @@ if __name__ == '__main__':
     he_weather = HeWeather()
     weather_forecast = he_weather.get_data()
     print(weather_forecast)
+
+    title = f"{weather_forecast['city']}未来3日天气预报，请查收！"
+    msg = str(weather_forecast)
+    receiver = 'jiarui.luo@hirain.com'
+    automail(title, msg, receiver)

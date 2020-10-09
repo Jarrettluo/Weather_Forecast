@@ -18,7 +18,6 @@ class SendMail(object):
         self.host = host  # 设置服务器
         self.user = user  # 用户名
         self.pwd = pwd  # 口令
-        pass
 
     def to(self, title, msg, receivers):
         """
@@ -32,7 +31,7 @@ class SendMail(object):
         mail_body = MIMEText(msg, _subtype='html', _charset='utf-8')
         message['From'] = formataddr(["Jarrett", self.user])  # 括号里对应收件人邮箱昵称发件人邮箱账号
         message['To'] = formataddr([receivers, receivers])
-        # 邮件主题，也就是说是标题
+        # 邮件主题
         message['Subject'] = Header(title, 'utf-8')
         message.attach(mail_body)
 

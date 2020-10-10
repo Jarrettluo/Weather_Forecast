@@ -3,6 +3,10 @@ A weather forecast app that runs on Raspberry
 
 ![sceenshot](sceenshot/weather1.png)
 
+更新了界面
+
+![sceenshot](sceenshot/sceenshot2.png)
+
 ## how to use
 
 add a new config file named `config.json`

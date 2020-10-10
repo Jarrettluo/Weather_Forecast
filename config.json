@@ -1,0 +1,26 @@
+{
+  "API": {
+    "key": "ac123eeb7c16456a87a5ec3d322f09ff",
+    "url": "https://free-api.heweather.net/s6/weather/forecast"
+  },
+  "SENDER": {
+    "host" : "smtp.163.com",
+    "username" : "luojiarui2@163.com",
+    "pwd" : "LJR199308"
+  },
+  "RECEIVER": [{
+    "username":"罗佳瑞",
+    "email": "jiarui.luo@hirain.com",
+    "location": "金牛"
+  },
+  {
+    "username":"开盛",
+    "email": "zks1893@163.com",
+    "location": "郫县"
+  },
+  {
+    "username":"宝贝邱",
+    "email": "1121484839@qq.com",
+    "location": "绵竹"
+  }]
+}
